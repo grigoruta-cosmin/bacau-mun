@@ -1,0 +1,126 @@
+html, body{
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+
+i {
+  font-size:30px;
+  position: absolute;
+  padding-top: 20px;
+  padding-left: 20px;
+  cursor: pointer;
+}
+
+.sideBarContent a{
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+}
+
+.intro{
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  background: url(../img/background_.jpg) no-repeat 50% 50%;
+  top: 0;
+  display: table;
+  background-size: cover;
+}
+
+.intro h1,h2,h3,h4,h5,h6{
+  font-family: 'Raleway', sans-serif;
+}
+
+.intro h1,h2,h3,h4,h5,h6,p,i{
+  color: white;
+}
+
+.intro .inner{
+  display: table-cell;
+  vertical-align: middle;
+  width: 100%;
+  max-width: none;
+}
+
+.content{
+  max-width: 500px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.content p{
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  font-style: italic;
+}
+
+.sideBarContent a{
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.sideNav{
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top:0;
+  left:0;
+  background-color: #105775;
+  overflow-x: hidden;
+  padding-top: 60px;
+  transition: 0.5s;
+}
+
+.sideNav a{
+  padding: 4px 4px 4px 32px;
+  text-decoration: none;
+  color: #f1f1f1;
+  display: block;
+  transition: 0.3s;
+}
+
+.sideNav a:hover{
+  color:white;
+  text-decoration: none;
+}
+
+.sideNav .closeBtn{
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+.footer{
+	background: transparent;
+	position: fixed;
+	bottom: 8px;
+	right: 0;
+	left: 0;
+	min-height: 63px;
+	margin: 0 auto;
+	z-index: 10000;
+	padding-left: 0;
+	-webkit-backface-visibility: hidden;
+	-webkit-transform: translateZ(0);
+	-webkit-transition: position .5s ease;
+	-moz-transition: position .5s ease;
+	-ms-transition: position .5s ease;
+	-o-transition: position .5s ease;
+	transition: position .5s ease;
+	text-align: center
+}
+
+.footer p{
+  padding-top: 40px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 13px;
+	text-align: center;
+	color: white;
+	-moz-animation-delay:1s;
+	-webkit-animation-delay:1s;
+}

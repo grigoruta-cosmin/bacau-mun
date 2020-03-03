@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Bacau Model United Nation">
+    <meta name="keywords" content="BacauMUN">
+    <meta name="author" content="Cosmin Grigoruta - Chief of Media Team">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="96x96" href="./img/favicon-96x96.png">
+    <link rel="stylesheet" type="text/css" href="css/about.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap-theme.min.css">
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="css/preloader.css"/>
+    <link href="https://fonts.googleapis.com/css?family=Raleway:800|Roboto:400,400i,700" rel="stylesheet">
+    <title>BacauMUN - About</title>
+  </head>
+
+  <body>
+      <div id="overlay"><div class="spinner"></div></div>
+      <div id="mySideNav" class="sideNav">
+        <span class="sideBarContent">
+          <a href="javascript:void(0)" class="closeBtn" onclick="closeNav()">&times;</a>
+          <a href="index.html">Home</a>
+          <a href="about.html">About</a>
+          <a href="comittees.html">Committees</a>
+          <a href="conference.html">Conference</a>
+          <a href="registration.html">Registration</a>
+          <a href="letter.html">Letter from Secretary General</a>
+        </span>
+      </div>
+      <div class="content">
+        <span onclick="openNav()" class="menu"><i class="fa fa-bars fa-2x" aria-hidden="true"></i></span>
+
+        <div class="container">
+          <h1>About</h1>
+          <hr />
+          <div class="row">
+            <div class="col-md-6 col-sm-6">
+              <a href="#partners-inf"><img src="./img/partners.jpg" class="img-responsive" id="partners"></a>
+            </div>
+            <div class="col-md-6 col-sm-6">
+              <a href="#board-inf"><img src="./img/board.jpg" class="img-responsive" id="board"></a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-12">
+              <div class="none" id="partners-inf">
+                <div class="row">
+                  <div class="col-md-4">
+                  </div>
+                  <div class="col-md-4">
+                      <h3 class="text-center">Main Sponsor</h3>
+                      <img src="./img/marcogroup.png" class="img-responsive">
+                  </div>
+                  <div class="col-md-4">
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-4 col-sm-4">
+                    <img class="img-responsive" src="./img/cngv.png">
+                  </div>
+                  <div class="col-md-4 col-sm-4">
+                    <img class="img-responsive" src="./img/karpen.png">
+                  </div>
+                  <div class="col-md-4 col-sm-4">
+                    <img class="img-responsive" src="./img/philomed.png">
+                  </div>
+                </div>
+              </div>
+              <div class="none" id="board-inf">
+                <div class="row">
+                  <div class="col-md-3">
+                    <img class="img-responsive av" src="img/Diana-text.jpg">
+                  </div>
+                  <div class="col-md-3">
+                    <img class="img-responsive av" src="img/Dragos-text.jpg">
+                  </div>
+                  <div class="col-md-3">
+                    <img class="img-responsive av" src="img/Alin-text.jpg">
+                  </div>
+                  <div class="col-md-3">
+                    <img class="img-responsive av" src="img/Cosmin-text.jpg">
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-4">
+                    <img class="img-responsive av" src="img/Armand-text.jpg">
+                  </div>
+                  <div class="col-md-4">
+                    <img class="img-responsive av" src="img/Elena-text.jpg">
+                  </div>
+                  <div class="col-md-4">
+                    <img class="img-responsive av" src="img/Gora-text.jpg">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <footer class="footer">
+        <p>
+          &copy; 2017 Bacau Model United Nations - Powered by Grigoruta Cosmin
+        </p>
+      </footer>
+
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+    <script>
+      var overlay = document.getElementById("overlay");
+
+      window.addEventListener('load', function(){
+        overlay.style.display = 'none';
+      });
+    </script>
+  </body>
+</html>
